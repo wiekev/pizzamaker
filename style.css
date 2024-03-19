@@ -1,0 +1,101 @@
+body{
+    background-image: url(./afbeelding/achetgrond.jpg);
+}
+
+.beleg{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.beleg img{
+    width: 200px;
+}
+
+.beleg-op-pizza{
+    background-image: url(./afbeelding/deeg.png);
+    position: relative;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 600px;
+    left: 400px;
+}
+   
+#sauslos{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#tomaatlos{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#mozzarellalos{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#olijflos{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#salamilos{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+button{
+    height: 100px;
+    padding: 17px;
+    background-color: brown;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+p{
+    display: block;
+    width: 400px;
+    height: 160px;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 1030px;
+    margin-top: 0px;
+}
+
+.klaar{
+    display: block;
+    margin-left: 1200px;
+    margin-top: -100px;
+}
+
+.opnieuw{
+    display: block;
+    margin-left: 120px;
+    margin-top: -600px;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.zichtbaar{
+    display: block;
+}
