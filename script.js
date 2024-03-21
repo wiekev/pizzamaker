@@ -10,7 +10,8 @@ let aanmozzarella = false
 let aanolijf = false
 let aansalami = false
 
-function saus(){
+
+function saus(){ // deze function zorgt er voor dat je de saus ziet als je op de sauspot klikt.
     if(aansaus === true){
         aansaus = false
         document.querySelector("#sauslos").style.display = "none";
@@ -22,7 +23,7 @@ function saus(){
 
 tomSaus.addEventListener("click", saus)
 
-function tom(){
+function tom(){  // deze function zorgt er voor dat je de tomaat ziet op de pizza als je op de tomaaten klikt.
     if(aantomaat === true){
         aantomaat = false
         document.querySelector("#tomaatlos").style.display = "none";
@@ -34,7 +35,7 @@ function tom(){
 
 tomaat2.addEventListener("click", tom)
 
-function mozza2(){
+function mozza2(){  // deze function zorgt er voor dat je de mozzarella ziet op de pizza als je op de mozzarella bol klikt.
     if(aanmozzarella === true){
         aanmozzarella = false
         document.querySelector("#mozzarellalos").style.display = "none";
@@ -46,7 +47,7 @@ function mozza2(){
 
 mozza.addEventListener("click", mozza2)
 
-function olijf2(){
+function olijf2(){  // deze function zorgt er voor dat je de olijf op de pizza ziet als je op de olijf klikt.
     if(aanolijf === true){
         aanolijf = false
         document.querySelector("#olijflos").style.display = "none";
@@ -58,7 +59,7 @@ function olijf2(){
 
 olij.addEventListener("click", olijf2)
 
-function salami2(){
+function salami2(){  // deze function zorgt er voor dat je de salami op de pizza ziet als je op de salami klikt.
     if(aansalami === true){
         aansalami = false
         document.querySelector("#salamilos").style.display = "none";
@@ -79,7 +80,7 @@ let klaar = document.querySelector(".klaar")
 let cijfer = Math.random() *10
 cijfer = Math.ceil(cijfer)
 
-function eindCijfer(){
+function eindCijfer(){  // deze function zorgt er voor dat er een random cijfer tussen de 1 en 10 komt na de tekst 'we geven je pizza een '.
     getal.textContent = "we geven je pizza een " + cijfer
 }
 
@@ -87,7 +88,7 @@ klaar.addEventListener("click", eindCijfer)
 
 let opnieuw = document.querySelector(".opnieuw")
 
-function nogEenKeer(){
+function nogEenKeer(){  // deze function zorgt er voor dat de pagina opnieuw wordt geladen.
     location.reload()
 }
 
@@ -96,7 +97,7 @@ opnieuw.addEventListener("click", nogEenKeer)
 let jee = document.querySelector(".yay")
 let boo = document.querySelector(".boe")
 
-function geluid(){
+function geluid(){  // deze function zorgt er voor dat je een geluid krijgt als je een cijfer krijgt, als het boven een 5 is het een jee geluid. als het 5 of lager is is het een boo.
     if(cijfer > 5){
 jee.play()
     } else{

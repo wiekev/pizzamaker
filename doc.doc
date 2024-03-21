@@ -1,63 +1,21 @@
-let tomSaus = document.querySelector("#tomatesaus")
-let tomaat2 = document.querySelector("#tomaat")
-let mozza = document.querySelector("#mozzarella")
-let olij = document.querySelector("#olijf")
-let sala = document.querySelector("#salami")
+bron:
+
+foto's:
+https://img.freepik.com/premium-vector/ready-pizza-dough-about-picking-pizza-baked-baked-dough-collecting-pizza-vector-cartoon-illustration_454120-150.jpg
+https://img.freepik.com/premium-vector/ready-made-pizza-dough-with-tomato-sauce-about-picking-pizza-baked-baked-dough-collecting-pizza-preparation-with-ketchup-vector-cartoon-illustration_454120-151.jpg?w=360
+https://previews.123rf.com/images/oleg525/oleg5251702/oleg525170200048/71543449-vector-illustration-logo-for-whole-white-cottage-cheese-mozzarella-cutting-pieces-sliced-background.jpg
+https://www.shutterstock.com/image-vector/olive-green-black-berry-slice-260nw-1679690485.jpg
+https://media.istockphoto.com/id/956147998/vector/slices-of-salami-sausage-vector-illustration.jpg?s=612x612&w=0&k=20&c=GTrdgo2BNFmFQ9YpThDIbNEmgnErNXlQdlv6kHz_gnU=
+https://www.nooteboomtextiles.com/cdn/shop/products/de7eb43b58045112932978c472e2e2e3.jpg?v=1700842009
 
 
-function saus(){
-    if(aan === true){
-        aan = false
-        document.querySelector("#sauslos").style.display = "none";
-    } else {
-        aan = true
-        document.querySelector("#sauslos").style.display = "block";
-    }
-}
 
-function tom(){
-    if(aan === true){
-        aan = false
-        document.querySelector("#tomaatlos").style.display = "none";
-    } else {
-        aan = true
-        document.querySelector("#tomaatlos").style.display = "block";
-    }
-}
-
-function mozza2(){
-    if(aan === true){
-        aan = false
-        document.querySelector("#mozzarellalos").style.display = "none";
-    } else {
-        aan = true
-        document.querySelector("#mozzarellalos").style.display = "block";
-    }
-}
-
-function olijf2(){
-    if(aan === true){
-        aan = false
-        document.querySelector("#olijflos").style.display = "none";
-    } else {
-        aan = true
-        document.querySelector("#olijflos").style.display = "block";
-    }
-}
-
-function salami2(){
-    if(aan === true){
-        aan = false
-        document.querySelector("#salamilos").style.display = "none";
-    } else {
-        aan = true
-        document.querySelector("#salamilos").style.display = "block";
-    }
-}
+geluid;
+https://pixabay.com/sound-effects/boo-6377/
+https://pixabay.com/sound-effects/yay-6326/
 
 
-tomSaus.addEventListener("click", saus)
-tomaat2.addEventListener("click", tom)
-mozza.addEventListener("click", mozza2)
-olij.addEventListener("click", olijf2)
-sala.addEventListener("click", salami2)
+progameer:
+https://stackoverflow.com/questions/9419263/how-to-play-audio
+https://www.w3schools.com/jsref/met_loc_reload.asp
+https://stackoverflow.com/questions/15318357/show-hide-image-with-javascript
