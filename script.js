@@ -1,8 +1,8 @@
-let tomSaus = document.querySelector("#tomatesaus")
-let tomaat2 = document.querySelector("#tomaat")
-let mozza = document.querySelector("#mozzarella")
-let olij = document.querySelector("#olijf")
-let sala = document.querySelector("#salami")
+const tomSaus = document.querySelector("#tomatesaus")
+const tomaat2 = document.querySelector("#tomaat")
+const mozza = document.querySelector("#mozzarella")
+const olij = document.querySelector("#olijf")
+const sala = document.querySelector("#salami")
 
 let aansaus = false
 let aantomaat = false
@@ -10,6 +10,7 @@ let aanmozzarella = false
 let aanolijf = false
 let aansalami = false
 
+// bron: https://stackoverflow.com/questions/15318357/show-hide-image-with-javascript
 
 function saus(){ // deze function zorgt er voor dat je de saus ziet als je op de sauspot klikt.
     if(aansaus === true){
@@ -72,8 +73,6 @@ function salami2(){  // deze function zorgt er voor dat je de salami op de pizza
 sala.addEventListener("click", salami2)
 
 
-
-
 let getal = document.querySelector("p")
 let klaar = document.querySelector(".klaar")
 
@@ -86,6 +85,9 @@ function eindCijfer(){  // deze function zorgt er voor dat er een random cijfer 
 
 klaar.addEventListener("click", eindCijfer)
 
+
+// bron van pagina reload: https://www.w3schools.com/jsref/met_loc_reload.asp
+
 let opnieuw = document.querySelector(".opnieuw")
 
 function nogEenKeer(){  // deze function zorgt er voor dat de pagina opnieuw wordt geladen.
@@ -93,6 +95,9 @@ function nogEenKeer(){  // deze function zorgt er voor dat de pagina opnieuw wor
 }
 
 opnieuw.addEventListener("click", nogEenKeer)
+
+
+// bron voor de audio: https://stackoverflow.com/questions/9419263/how-to-play-audio
 
 let jee = document.querySelector(".yay")
 let boo = document.querySelector(".boe")
